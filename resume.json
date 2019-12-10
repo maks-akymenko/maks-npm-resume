@@ -1,0 +1,47 @@
+{
+  "Education 📚": [
+    "Krakow Akademy of A.F.Modrzewskiego, Poland, Economics faculty😅  2013 - 2017",
+    "School specializing in English language, Ukraine, 2002 - 2013 ",
+    "Tons of online courses about programming, 2017 - Infinite"
+  ],
+  "Past Experience 🧪": [
+    "Frontend Engineer at NetGuru - https://www.netguru.com/ - 2019 - 2020, 1yr",
+    "Frontend Developer at CallPage - https://www.callpage.pl/, 2018 - 2019, 1yr2m",
+    "Freelancer, worldwide, 2017, 6m"
+  ],
+  "Tech Stack 💻": [
+    "JavaScript (ES5, ES6, ES7...)",
+    "TypeScript",
+    "React, Gatsby, Redux, Redux Saga, Vue.js, Nuxt.js,",
+    "Webpack",
+    "GraphQL, Apollo",
+    "Jest, Cypress, Testing-library",
+    "HTML5, Pug",
+    "CSS, SASS, SCSS",
+    "Flexbox, Grid",
+    "Node.js",
+    "CircleCI",
+    "Figma, Sketch, Zeplin",
+    "Git, Terminal"
+  ],
+  "Achievements ✌": [
+    "Articles about the programming - https://medium.com/@maks.akymenko",
+    "Coding tutorials on the CSS-Tricks - https://css-tricks.com/author/maksakymenko/",
+    "Mentor at the Katowice Public Hackathon - https://www.hackathon.com/event/hackathon-spoeczny--1-72766758333",
+    "5que at CodeWars (algorithms) - https://www.codewars.com/users/maximakymenko",
+    "Part of the frontend presales team at NetGuru",
+    "25+ courses on frontend masters"
+  ],
+  "Projects 🛠": [
+    "Gatsby Blog - http://frontender.cc/",
+    "React Movie premieres counter - https://days-till.maksakymenko.now.sh/",
+    "Gatsby Photography Portfolio - https://github.com/maximakymenko/elizabethseaside-portfolio",
+    "A lot more, but NDA :)"
+  ],
+  "Contact 🤙": [
+    "https://twitter.com/maks_akymenko",
+    "https://www.linkedin.com/in/maksakymenko/",
+    "https://github.com/maximakymenko",
+    "maks.akymenko@gmail.com"
+  ]
+}
