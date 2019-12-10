@@ -3,37 +3,36 @@
 
 const inquirer = require("inquirer");
 const chalk = require("chalk");
-
+const resume = require("./resume.json");
+// add response color
 const response = chalk.bold.yellow;
 
-const resume = require("./resume.json");
-
-const resumePrompts = {
+const prompts = {
   type: "list",
   name: "resumeOptions",
   message: "What would you like to know?",
   choices: [...Object.keys(resume), "See you!"]
 };
 
-function main() {
-  console.log("Hi there👋 my name's Maks and welcome to my resume");
-  resumeHandler();
+function showResume() {
+  console.log("Hi there 👋  my name's Maks and welcome to my resume");
+  handleResume();
 }
 
-function resumeHandler() {
-  inquirer.prompt(resumePrompts).then(answer => {
-    if (answer.resumeOptions == "Bye") {
+function handleResume() {
+  inquirer.prompt(prompts).then(answer => {
+    if (answer.resumeOptions == "See you!") {
+      console.log(response("Thank you for your time!"));
       return;
     }
-    const option = answer.resumeOptions;
-    const resumeOption = resume[`${option}`]
+    const option = resume[`${answer.resumeOptions}`]
 
-    if (resumeOption) {
-      console.log(response("--------------------------------------"));
-      resumeOption.forEach(info => {
+    if (option) {
+      console.log(response(new inquirer.Separator()));
+      option.forEach(info => {
         console.log(response("|   => " + info));
       });
-      console.log(response("--------------------------------------"));
+      console.log(response(new inquirer.Separator()));
     }
 
     inquirer
@@ -45,7 +44,7 @@ function resumeHandler() {
       })
       .then(choice => {
         if (choice.exitBack == "Back") {
-          resumeHandler();
+          handleResume();
         } else {
           console.log(response("Thank you for your time!"));
           return;
@@ -54,4 +53,4 @@ function resumeHandler() {
   }).catch(err => console.log('Ooops,', err))
 }
 
-main();
+showResume();
