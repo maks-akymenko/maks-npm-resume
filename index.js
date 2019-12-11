@@ -7,7 +7,7 @@ const resume = require("./resume.json");
 // add response color
 const response = chalk.bold.yellow;
 
-const prompts = {
+const options = {
   type: "list",
   name: "resumeOptions",
   message: "What would you like to know?",
@@ -20,7 +20,7 @@ function showResume() {
 }
 
 function handleResume() {
-  inquirer.prompt(prompts).then(answer => {
+  inquirer.prompt(options).then(answer => {
     if (answer.resumeOptions == "See you!") {
       console.log(response("Thank you for your time!"));
       return;
