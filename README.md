@@ -1,9 +1,8 @@
 ## Online Resume published on NPM
 
-Tutorial on [CSS-Tricks](https://css-tricks.com/how-to-build-your-resume-on-npm/)
+- Tutorial on [CSS-Tricks](https://css-tricks.com/how-to-build-your-resume-on-npm/)
+- Link to [NPM](https://www.npmjs.com/package/maks-dev-resume)
 
-Link to [NPM](https://www.npmjs.com/package/maks-dev-resume)
----
 ## How to run it on your local machine!
 
 Open Terminal and type:
